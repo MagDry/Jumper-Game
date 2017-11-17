@@ -1,0 +1,36 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans Expanded', sans-serif; }
+
+body {
+  background: -moz-radial-gradient(center, ellipse cover, #16d9f7 0%, #04292e 81%, black 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #16d9f7), color-stop(81%, #04292e), color-stop(100%, black));
+  /* safari4+,chrome */
+  background: -webkit-radial-gradient(center, ellipse cover, #16d9f7 0%, #04292e 81%, black 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-radial-gradient(center, ellipse cover, #16d9f7 0%, #04292e 81%, black 100%);
+  /* opera 11.10+ */
+  background: -ms-radial-gradient(center, ellipse cover, #16d9f7 0%, #04292e 81%, black 100%);
+  /* ie10+ */
+  background: radial-gradient(ellipse at center, #16d9f7 0%, #04292e 81%, black 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16D9F7', endColorstr='#000000',GradientType=1 );
+  /* ie6-9 */
+  height: 100vh; }
+  body .container {
+    width: 100%;
+    max-width: 455px; }
+    body .container .mainText {
+      text-align: center;
+      font-size: 25px;
+      width: 455px;
+      padding: 20px;
+      margin-top: 10px; }
+    body .container #gameContainer {
+      margin-top: 10px;
+      width: 100%;
+      height: 555px;
+      border: solid 3px #2F4F4F; }
