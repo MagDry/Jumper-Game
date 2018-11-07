@@ -1,6 +1,8 @@
 # Jumper-Game
 
-Visit this project here: https://magdry.github.io/Jumper-Game/
+Visit this project here: 
+
+<a href="https://magdry.github.io/Jumper-Game/">Jumper Game</a>
 
 <img src="http://magdry.pl/images/jumper.jpg"/>
 
